@@ -1,0 +1,50 @@
+held-out: 5000 states from 189 games, mean return +0.671
+iter   10 | train mse 0.4114 | games  10
+iter   20 | train mse 0.0987 | games  10
+iter   30 | train mse 0.5512 | games  10
+iter   40 | train mse 0.2955 | games  11
+iter   50 | train mse 0.2436 | games  11
+  held-out mse 0.2956 | R^2 +0.094
+iter   60 | train mse 0.0687 | games  10
+iter   70 | train mse 0.0309 | games  11
+iter   80 | train mse 0.4355 | games   9
+iter   90 | train mse 0.0418 | games  11
+iter  100 | train mse 0.0472 | games  10
+  held-out mse 0.2898 | R^2 +0.112
+iter  110 | train mse 0.5986 | games   9
+iter  120 | train mse 0.2590 | games  10
+iter  130 | train mse 0.0847 | games  10
+iter  140 | train mse 0.0482 | games  10
+iter  150 | train mse 0.2526 | games  10
+  held-out mse 0.2786 | R^2 +0.146
+iter  160 | train mse 0.2608 | games  10
+iter  170 | train mse 0.0487 | games   9
+iter  180 | train mse 0.3528 | games  10
+iter  190 | train mse 0.2326 | games  10
+iter  200 | train mse 0.0628 | games  11
+  held-out mse 0.2711 | R^2 +0.169
+iter  210 | train mse 0.2788 | games  10
+iter  220 | train mse 0.5350 | games  10
+iter  230 | train mse 0.0862 | games  11
+iter  240 | train mse 0.2781 | games  11
+iter  250 | train mse 0.2649 | games  10
+  held-out mse 0.2784 | R^2 +0.147
+iter  260 | train mse 0.3539 | games   9
+iter  270 | train mse 0.0466 | games  11
+iter  280 | train mse 0.0388 | games  10
+iter  290 | train mse 0.0731 | games  10
+iter  300 | train mse 0.2349 | games  10
+  held-out mse 0.2665 | R^2 +0.184
+iter  310 | train mse 0.2689 | games  10
+iter  320 | train mse 0.0493 | games  11
+iter  330 | train mse 0.0252 | games  11
+iter  340 | train mse 0.4859 | games  10
+iter  350 | train mse 0.0608 | games  10
+  held-out mse 0.2661 | R^2 +0.185
+iter  360 | train mse 0.0819 | games  11
+iter  370 | train mse 0.3142 | games  10
+iter  380 | train mse 0.4119 | games  10
+iter  390 | train mse 0.2070 | games  10
+iter  400 | train mse 0.1893 | games  10
+  held-out mse 0.2615 | R^2 +0.199
+V(initial position, moving first) = +0.641

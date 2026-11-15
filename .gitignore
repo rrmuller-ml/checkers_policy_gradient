@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# scratch outputs of train.py with default paths
+/mlp.pt
+/train_log.txt
+
+# experiment checkpoints: regenerate with the commands in README.md (logs and plots are kept)
+checkpoints/stale/*.pt
+checkpoints/vs_sp2/*.pt

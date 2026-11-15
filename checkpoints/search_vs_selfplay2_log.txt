@@ -1,0 +1,8 @@
+vs self-play best (sampled), 400 games (half per colour): win / draw / loss
+  vs-random policy (top move)  48.8% /  0.0% / 51.2%
+  vs-random + search min       86.2% /  0.2% / 13.5%
+  vs-random + search mean      85.2% /  0.0% / 14.8%
+vs self-play best (top move), 2 games (half per colour): win / draw / loss
+  vs-random policy (top move)  50.0% /  0.0% / 50.0%
+  vs-random + search min       100.0% /  0.0% /  0.0%
+  vs-random + search mean      100.0% /  0.0% /  0.0%

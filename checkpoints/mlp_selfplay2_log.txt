@@ -1,0 +1,460 @@
+iter    1 | loss -0.0478 | games   7 | train win 57% | mean return +0.053
+iter    2 | loss +0.0073 | games   9 | train win 56% | mean return +0.066
+iter    3 | loss +0.0411 | games   9 | train win 44% | mean return +0.028
+iter    4 | loss -0.0023 | games   8 | train win 50% | mean return +0.093
+iter    5 | loss +0.3004 | games   8 | train win 75% | mean return +0.452
+iter    6 | loss -0.1438 | games   9 | train win 33% | mean return -0.213
+iter    7 | loss -0.3139 | games   8 | train win 25% | mean return -0.442
+iter    8 | loss +0.2433 | games   8 | train win 62% | mean return +0.336
+iter    9 | loss -0.2928 | games   8 | train win 25% | mean return -0.446
+iter   10 | loss +0.0226 | games   8 | train win 62% | mean return +0.098
+iter   11 | loss +0.0848 | games   9 | train win 67% | mean return +0.262
+iter   12 | loss +0.1909 | games   9 | train win 56% | mean return +0.220
+iter   13 | loss +0.1340 | games   9 | train win 67% | mean return +0.220
+iter   14 | loss +0.0582 | games   8 | train win 50% | mean return +0.048
+iter   15 | loss +0.1200 | games   9 | train win 56% | mean return +0.191
+iter   16 | loss -0.0446 | games   9 | train win 56% | mean return +0.057
+iter   17 | loss -0.0227 | games   9 | train win 67% | mean return +0.137
+iter   18 | loss +0.1615 | games   9 | train win 56% | mean return +0.188
+iter   19 | loss -0.3953 | games   9 | train win 11% | mean return -0.666
+iter   20 | loss +0.0543 | games   9 | train win 56% | mean return +0.145
+iter   21 | loss -0.1211 | games   9 | train win 33% | mean return -0.257
+iter   22 | loss -0.4303 | games   7 | train win 29% | mean return -0.457
+iter   23 | loss -0.1314 | games   9 | train win 33% | mean return -0.225
+iter   24 | loss +0.2890 | games   9 | train win 67% | mean return +0.439
+iter   25 | loss -0.3852 | games   9 | train win 22% | mean return -0.635
+  eval sampled vs random (200 games): win 92% draw 0% loss 8%
+  eval greedy  vs random (200 games): win 95% draw 0% loss 5%
+  eval greedy  vs ref    (200 games): win 65% draw 0% loss 35%
+  new best (65.0%) -> checkpoints/mlp_selfplay2_best.pt
+iter   26 | loss +0.2273 | games   8 | train win 62% | mean return +0.269
+iter   27 | loss -0.2226 | games   9 | train win 33% | mean return -0.290
+iter   28 | loss -0.0942 | games   8 | train win 50% | mean return -0.090
+iter   29 | loss +0.0469 | games   7 | train win 57% | mean return +0.087
+iter   30 | loss +0.2076 | games   8 | train win 88% | mean return +0.548
+iter   31 | loss +0.0085 | games   9 | train win 44% | mean return -0.029
+iter   32 | loss +0.1617 | games   9 | train win 67% | mean return +0.243
+iter   33 | loss +0.0478 | games   9 | train win 56% | mean return +0.123
+iter   34 | loss -0.0594 | games   8 | train win 50% | mean return -0.041
+iter   35 | loss -0.1691 | games   7 | train win 57% | mean return +0.015
+iter   36 | loss +0.2754 | games   8 | train win 62% | mean return +0.347
+iter   37 | loss +0.0583 | games   9 | train win 56% | mean return +0.027
+iter   38 | loss +0.1454 | games   9 | train win 56% | mean return +0.087
+iter   39 | loss +0.1178 | games   8 | train win 75% | mean return +0.345
+iter   40 | loss -0.3899 | games   9 | train win 11% | mean return -0.646
+iter   41 | loss +0.2757 | games   9 | train win 67% | mean return +0.247
+iter   42 | loss -0.1662 | games   8 | train win 50% | mean return -0.092
+iter   43 | loss -0.0192 | games  10 | train win 50% | mean return -0.015
+iter   44 | loss +0.1217 | games   9 | train win 56% | mean return +0.160
+iter   45 | loss +0.0933 | games   9 | train win 56% | mean return +0.008
+iter   46 | loss +0.0273 | games   8 | train win 50% | mean return +0.087
+iter   47 | loss -0.0588 | games   9 | train win 44% | mean return -0.090
+iter   48 | loss +0.0680 | games   8 | train win 50% | mean return +0.030
+iter   49 | loss +0.0521 | games   8 | train win 50% | mean return -0.027
+iter   50 | loss +0.1962 | games   8 | train win 62% | mean return +0.240
+  opponent <- frozen copy of policy at iter 50
+  eval sampled vs random (200 games): win 92% draw 0% loss 8%
+  eval greedy  vs random (200 games): win 96% draw 0% loss 4%
+  eval greedy  vs ref    (200 games): win 78% draw 0% loss 22%
+  new best (78.0%) -> checkpoints/mlp_selfplay2_best.pt
+iter   51 | loss +0.0822 | games   9 | train win 56% | mean return +0.198
+iter   52 | loss +0.0595 | games   8 | train win 50% | mean return +0.035
+iter   53 | loss -0.1041 | games   9 | train win 44% | mean return -0.049
+iter   54 | loss -0.4995 | games   8 | train win 12% | mean return -0.636
+iter   55 | loss -0.0859 | games   9 | train win 44% | mean return -0.162
+iter   56 | loss +0.2213 | games   9 | train win 56% | mean return +0.228
+iter   57 | loss +0.3594 | games   9 | train win 78% | mean return +0.625
+iter   58 | loss -0.1393 | games   8 | train win 38% | mean return -0.194
+iter   59 | loss +0.1594 | games   9 | train win 67% | mean return +0.289
+iter   60 | loss -0.0334 | games   7 | train win 43% | mean return -0.114
+iter   61 | loss +0.0086 | games   9 | train win 67% | mean return +0.225
+iter   62 | loss -0.2516 | games   9 | train win 44% | mean return -0.248
+iter   63 | loss -0.0169 | games   9 | train win 33% | mean return -0.257
+iter   64 | loss +0.0707 | games   8 | train win 50% | mean return +0.028
+iter   65 | loss -0.0668 | games   8 | train win 50% | mean return -0.060
+iter   66 | loss -0.3156 | games   9 | train win 33% | mean return -0.400
+iter   67 | loss +0.2191 | games   8 | train win 75% | mean return +0.431
+iter   68 | loss +0.0230 | games   9 | train win 56% | mean return +0.092
+iter   69 | loss +0.0919 | games   9 | train win 56% | mean return +0.172
+iter   70 | loss +0.3272 | games   7 | train win 71% | mean return +0.315
+iter   71 | loss +0.3124 | games   7 | train win 57% | mean return +0.260
+iter   72 | loss -0.1235 | games   8 | train win 38% | mean return -0.255
+iter   73 | loss -0.3166 | games   8 | train win 25% | mean return -0.371
+iter   74 | loss +0.1725 | games   9 | train win 67% | mean return +0.343
+iter   75 | loss +0.2003 | games   8 | train win 62% | mean return +0.281
+  eval sampled vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 79% draw 0% loss 21%
+  new best (79.0%) -> checkpoints/mlp_selfplay2_best.pt
+iter   76 | loss +0.1479 | games   9 | train win 67% | mean return +0.337
+iter   77 | loss -0.1219 | games   9 | train win 33% | mean return -0.270
+iter   78 | loss -0.1183 | games   9 | train win 44% | mean return -0.162
+iter   79 | loss +0.0374 | games   8 | train win 62% | mean return +0.163
+iter   80 | loss +0.0637 | games   9 | train win 67% | mean return +0.232
+iter   81 | loss +0.3325 | games   9 | train win 67% | mean return +0.475
+iter   82 | loss -0.1638 | games   9 | train win 33% | mean return -0.212
+iter   83 | loss +0.1227 | games   9 | train win 56% | mean return +0.140
+iter   84 | loss +0.0812 | games   9 | train win 56% | mean return +0.025
+iter   85 | loss -0.1067 | games   9 | train win 44% | mean return -0.058
+iter   86 | loss +0.0953 | games  10 | train win 60% | mean return +0.267
+iter   87 | loss -0.2306 | games   8 | train win 38% | mean return -0.265
+iter   88 | loss +0.1196 | games   9 | train win 67% | mean return +0.401
+iter   89 | loss +0.2342 | games   9 | train win 67% | mean return +0.280
+iter   90 | loss +0.2002 | games   9 | train win 78% | mean return +0.447
+iter   91 | loss +0.0379 | games   9 | train win 56% | mean return +0.057
+iter   92 | loss -0.0166 | games   9 | train win 56% | mean return +0.002
+iter   93 | loss +0.0902 | games   9 | train win 56% | mean return +0.098
+iter   94 | loss +0.0047 | games   9 | train win 67% | mean return +0.222
+iter   95 | loss -0.0584 | games   8 | train win 38% | mean return -0.200
+iter   96 | loss +0.0357 | games  10 | train win 60% | mean return +0.096
+iter   97 | loss -0.0248 | games   9 | train win 44% | mean return -0.071
+iter   98 | loss +0.1097 | games   9 | train win 67% | mean return +0.406
+iter   99 | loss +0.0220 | games   9 | train win 44% | mean return -0.163
+iter  100 | loss -0.1346 | games   9 | train win 33% | mean return -0.263
+  opponent <- frozen copy of policy at iter 100
+  eval sampled vs random (200 games): win 91% draw 0% loss 9%
+  eval greedy  vs random (200 games): win 96% draw 0% loss 4%
+  eval greedy  vs ref    (200 games): win 64% draw 0% loss 36%
+iter  101 | loss +0.1252 | games  10 | train win 60% | mean return +0.173
+iter  102 | loss -0.3847 | games   9 | train win 22% | mean return -0.610
+iter  103 | loss +0.1722 | games   9 | train win 78% | mean return +0.476
+iter  104 | loss +0.0065 | games   9 | train win 44% | mean return -0.016
+iter  105 | loss +0.1365 | games   8 | train win 50% | mean return +0.154
+iter  106 | loss -0.1137 | games   9 | train win 44% | mean return -0.208
+iter  107 | loss -0.4830 | games   7 | train win 14% | mean return -0.591
+iter  108 | loss -0.0408 | games   9 | train win 44% | mean return -0.065
+iter  109 | loss -0.1890 | games   8 | train win 38% | mean return -0.159
+iter  110 | loss -0.0608 | games  10 | train win 50% | mean return -0.083
+iter  111 | loss -0.0120 | games   9 | train win 78% | mean return +0.325
+iter  112 | loss +0.2449 | games   8 | train win 75% | mean return +0.468
+iter  113 | loss -0.1561 | games   9 | train win 33% | mean return -0.245
+iter  114 | loss -0.3053 | games   8 | train win 25% | mean return -0.428
+iter  115 | loss -0.0167 | games   8 | train win 38% | mean return -0.178
+iter  116 | loss +0.1885 | games   9 | train win 67% | mean return +0.301
+iter  117 | loss -0.1811 | games   8 | train win 38% | mean return -0.311
+iter  118 | loss -0.2222 | games   9 | train win 33% | mean return -0.271
+iter  119 | loss +0.0554 | games   8 | train win 62% | mean return +0.164
+iter  120 | loss +0.0313 | games   9 | train win 56% | mean return +0.023
+iter  121 | loss -0.1192 | games   8 | train win 38% | mean return -0.312
+iter  122 | loss +0.1898 | games   8 | train win 75% | mean return +0.386
+iter  123 | loss +0.2338 | games   9 | train win 78% | mean return +0.457
+iter  124 | loss -0.1452 | games   9 | train win 44% | mean return -0.205
+iter  125 | loss +0.2234 | games   8 | train win 75% | mean return +0.471
+  eval sampled vs random (200 games): win 92% draw 0% loss 8%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 76% draw 0% loss 24%
+iter  126 | loss +0.3641 | games   9 | train win 89% | mean return +0.645
+iter  127 | loss +0.1431 | games  10 | train win 70% | mean return +0.308
+iter  128 | loss -0.0761 | games   9 | train win 56% | mean return +0.008
+iter  129 | loss +0.0356 | games   9 | train win 44% | mean return -0.025
+iter  130 | loss -0.0433 | games   9 | train win 44% | mean return -0.175
+iter  131 | loss +0.1479 | games   9 | train win 56% | mean return +0.209
+iter  132 | loss +0.3107 | games   8 | train win 75% | mean return +0.509
+iter  133 | loss +0.1137 | games   8 | train win 50% | mean return +0.030
+iter  134 | loss -0.0874 | games   9 | train win 67% | mean return +0.199
+iter  135 | loss +0.2145 | games   9 | train win 78% | mean return +0.437
+iter  136 | loss +0.2450 | games   8 | train win 75% | mean return +0.437
+iter  137 | loss +0.1621 | games   8 | train win 50% | mean return +0.114
+iter  138 | loss +0.0433 | games   9 | train win 56% | mean return -0.007
+iter  139 | loss +0.3551 | games   8 | train win 88% | mean return +0.623
+iter  140 | loss +0.1342 | games  10 | train win 70% | mean return +0.263
+iter  141 | loss -0.1106 | games   9 | train win 33% | mean return -0.214
+iter  142 | loss +0.2331 | games   9 | train win 67% | mean return +0.397
+iter  143 | loss +0.1204 | games   9 | train win 78% | mean return +0.386
+iter  144 | loss -0.0652 | games   9 | train win 56% | mean return +0.085
+iter  145 | loss +0.1379 | games   9 | train win 67% | mean return +0.276
+iter  146 | loss +0.0980 | games   9 | train win 67% | mean return +0.257
+iter  147 | loss +0.1793 | games   9 | train win 78% | mean return +0.448
+iter  148 | loss +0.2529 | games   9 | train win 67% | mean return +0.283
+iter  149 | loss -0.0030 | games   9 | train win 44% | mean return -0.008
+iter  150 | loss +0.2691 | games   9 | train win 78% | mean return +0.461
+  opponent <- frozen copy of policy at iter 150
+  eval sampled vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 76% draw 0% loss 24%
+iter  151 | loss -0.1185 | games   9 | train win 44% | mean return -0.197
+iter  152 | loss +0.2254 | games   8 | train win 75% | mean return +0.412
+iter  153 | loss -0.0918 | games   8 | train win 50% | mean return -0.050
+iter  154 | loss -0.3326 | games   8 | train win 25% | mean return -0.478
+iter  155 | loss -0.0940 | games   8 | train win 50% | mean return -0.046
+iter  156 | loss +0.2696 | games   9 | train win 67% | mean return +0.388
+iter  157 | loss +0.1611 | games   9 | train win 67% | mean return +0.281
+iter  158 | loss +0.0602 | games   8 | train win 50% | mean return +0.021
+iter  159 | loss -0.2116 | games   9 | train win 22% | mean return -0.436
+iter  160 | loss +0.1482 | games   9 | train win 56% | mean return +0.225
+iter  161 | loss +0.0124 | games  10 | train win 60% | mean return +0.125
+iter  162 | loss +0.1996 | games   8 | train win 62% | mean return +0.258
+iter  163 | loss +0.2393 | games   9 | train win 67% | mean return +0.387
+iter  164 | loss -0.3675 | games   9 | train win 11% | mean return -0.674
+iter  165 | loss +0.0157 | games   9 | train win 56% | mean return -0.003
+iter  166 | loss -0.1588 | games   9 | train win 33% | mean return -0.412
+iter  167 | loss +0.0813 | games   8 | train win 50% | mean return -0.003
+iter  168 | loss -0.0292 | games   9 | train win 33% | mean return -0.329
+iter  169 | loss -0.0893 | games   9 | train win 33% | mean return -0.201
+iter  170 | loss +0.0062 | games   8 | train win 62% | mean return +0.120
+iter  171 | loss -0.1877 | games   9 | train win 44% | mean return -0.142
+iter  172 | loss +0.0447 | games   9 | train win 56% | mean return +0.023
+iter  173 | loss -0.1937 | games  10 | train win 40% | mean return -0.244
+iter  174 | loss +0.0314 | games   9 | train win 56% | mean return +0.076
+iter  175 | loss +0.0146 | games   9 | train win 56% | mean return +0.129
+  eval sampled vs random (200 games): win 95% draw 0% loss 5%
+  eval greedy  vs random (200 games): win 98% draw 0% loss 2%
+  eval greedy  vs ref    (200 games): win 73% draw 0% loss 27%
+iter  176 | loss +0.0946 | games   9 | train win 67% | mean return +0.211
+iter  177 | loss -0.0725 | games   9 | train win 44% | mean return -0.142
+iter  178 | loss +0.0206 | games   8 | train win 50% | mean return +0.089
+iter  179 | loss +0.0514 | games   9 | train win 56% | mean return +0.063
+iter  180 | loss +0.0543 | games   8 | train win 50% | mean return +0.110
+iter  181 | loss +0.0105 | games   8 | train win 50% | mean return -0.032
+iter  182 | loss +0.0027 | games   8 | train win 50% | mean return +0.048
+iter  183 | loss -0.0740 | games   9 | train win 33% | mean return -0.224
+iter  184 | loss -0.1247 | games   9 | train win 44% | mean return -0.158
+iter  185 | loss +0.0436 | games   8 | train win 38% | mean return -0.110
+iter  186 | loss -0.0769 | games   8 | train win 38% | mean return -0.160
+iter  187 | loss -0.0413 | games   9 | train win 44% | mean return -0.034
+iter  188 | loss +0.0075 | games   9 | train win 56% | mean return +0.101
+iter  189 | loss +0.2030 | games   9 | train win 78% | mean return +0.441
+iter  190 | loss +0.2066 | games   9 | train win 67% | mean return +0.325
+iter  191 | loss -0.0348 | games   9 | train win 44% | mean return -0.028
+iter  192 | loss -0.1375 | games   9 | train win 56% | mean return -0.082
+iter  193 | loss +0.2405 | games   9 | train win 67% | mean return +0.393
+iter  194 | loss +0.0426 | games   9 | train win 67% | mean return +0.208
+iter  195 | loss -0.0301 | games   8 | train win 50% | mean return -0.051
+iter  196 | loss +0.1710 | games   9 | train win 67% | mean return +0.392
+iter  197 | loss +0.0888 | games   8 | train win 50% | mean return +0.063
+iter  198 | loss +0.0900 | games   8 | train win 50% | mean return +0.016
+iter  199 | loss +0.1213 | games   9 | train win 78% | mean return +0.523
+iter  200 | loss +0.2784 | games   9 | train win 78% | mean return +0.533
+  opponent <- frozen copy of policy at iter 200
+  eval sampled vs random (200 games): win 96% draw 0% loss 4%
+  eval greedy  vs random (200 games): win 98% draw 0% loss 2%
+  eval greedy  vs ref    (200 games): win 65% draw 0% loss 35%
+iter  201 | loss +0.2059 | games   8 | train win 75% | mean return +0.396
+iter  202 | loss +0.0699 | games   9 | train win 56% | mean return +0.047
+iter  203 | loss +0.0457 | games   9 | train win 44% | mean return +0.046
+iter  204 | loss +0.2317 | games   8 | train win 75% | mean return +0.429
+iter  205 | loss +0.1645 | games   9 | train win 56% | mean return +0.233
+iter  206 | loss -0.0873 | games   9 | train win 44% | mean return -0.164
+iter  207 | loss +0.2556 | games   9 | train win 78% | mean return +0.458
+iter  208 | loss -0.1738 | games   9 | train win 33% | mean return -0.211
+iter  209 | loss +0.0038 | games   9 | train win 44% | mean return -0.045
+iter  210 | loss +0.1431 | games   9 | train win 56% | mean return +0.102
+iter  211 | loss -0.0320 | games   9 | train win 44% | mean return -0.063
+iter  212 | loss -0.0606 | games   8 | train win 38% | mean return -0.192
+iter  213 | loss -0.0002 | games   8 | train win 50% | mean return +0.074
+iter  214 | loss +0.0680 | games   9 | train win 44% | mean return -0.016
+iter  215 | loss +0.1553 | games   9 | train win 67% | mean return +0.327
+iter  216 | loss +0.1284 | games   9 | train win 44% | mean return +0.085
+iter  217 | loss +0.0341 | games   9 | train win 67% | mean return +0.213
+iter  218 | loss +0.0388 | games   8 | train win 50% | mean return +0.007
+iter  219 | loss +0.1799 | games   9 | train win 67% | mean return +0.410
+iter  220 | loss -0.1995 | games   9 | train win 22% | mean return -0.442
+iter  221 | loss -0.1931 | games   9 | train win 33% | mean return -0.381
+iter  222 | loss -0.0070 | games   9 | train win 33% | mean return -0.190
+iter  223 | loss -0.2396 | games   8 | train win 25% | mean return -0.425
+iter  224 | loss +0.0186 | games   9 | train win 44% | mean return -0.004
+iter  225 | loss -0.0519 | games   9 | train win 44% | mean return -0.096
+  eval sampled vs random (200 games): win 92% draw 0% loss 8%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 59% draw 0% loss 41%
+iter  226 | loss -0.3184 | games   8 | train win 12% | mean return -0.643
+iter  227 | loss -0.1370 | games   8 | train win 38% | mean return -0.259
+iter  228 | loss +0.0232 | games   8 | train win 50% | mean return +0.020
+iter  229 | loss +0.0047 | games   9 | train win 44% | mean return -0.066
+iter  230 | loss +0.0502 | games   9 | train win 67% | mean return +0.246
+iter  231 | loss -0.1291 | games   9 | train win 33% | mean return -0.289
+iter  232 | loss -0.1453 | games   8 | train win 25% | mean return -0.440
+iter  233 | loss +0.0683 | games   9 | train win 67% | mean return +0.157
+iter  234 | loss -0.0242 | games   9 | train win 56% | mean return +0.059
+iter  235 | loss -0.0258 | games   8 | train win 38% | mean return -0.185
+iter  236 | loss -0.0487 | games   9 | train win 56% | mean return +0.047
+iter  237 | loss -0.1023 | games   9 | train win 33% | mean return -0.328
+iter  238 | loss -0.0491 | games   8 | train win 38% | mean return -0.186
+iter  239 | loss +0.0824 | games   9 | train win 67% | mean return +0.399
+iter  240 | loss +0.1306 | games   9 | train win 67% | mean return +0.259
+iter  241 | loss -0.0522 | games   8 | train win 50% | mean return +0.035
+iter  242 | loss +0.0413 | games   8 | train win 50% | mean return +0.040
+iter  243 | loss -0.0263 | games   9 | train win 44% | mean return -0.049
+iter  244 | loss +0.1634 | games   8 | train win 75% | mean return +0.411
+iter  245 | loss +0.1126 | games   8 | train win 50% | mean return +0.094
+iter  246 | loss -0.0589 | games   8 | train win 50% | mean return +0.040
+iter  247 | loss -0.1331 | games   9 | train win 44% | mean return -0.191
+iter  248 | loss +0.0257 | games   9 | train win 56% | mean return +0.054
+iter  249 | loss -0.0686 | games   8 | train win 38% | mean return -0.233
+iter  250 | loss +0.2172 | games   8 | train win 62% | mean return +0.246
+  opponent <- frozen copy of policy at iter 250
+  eval sampled vs random (200 games): win 96% draw 0% loss 4%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 67% draw 0% loss 33%
+iter  251 | loss -0.0422 | games   9 | train win 44% | mean return -0.030
+iter  252 | loss -0.0938 | games   9 | train win 44% | mean return -0.118
+iter  253 | loss +0.1670 | games   9 | train win 78% | mean return +0.439
+iter  254 | loss +0.1205 | games   9 | train win 67% | mean return +0.261
+iter  255 | loss +0.2274 | games   9 | train win 67% | mean return +0.432
+iter  256 | loss -0.0818 | games   9 | train win 33% | mean return -0.214
+iter  257 | loss -0.1470 | games   9 | train win 33% | mean return -0.300
+iter  258 | loss +0.0338 | games   8 | train win 50% | mean return -0.011
+iter  259 | loss -0.0002 | games   9 | train win 56% | mean return +0.121
+iter  260 | loss -0.1294 | games   8 | train win 12% | mean return -0.535
+iter  261 | loss -0.0330 | games   9 | train win 33% | mean return -0.228
+iter  262 | loss +0.0201 | games   9 | train win 56% | mean return +0.072
+iter  263 | loss +0.1731 | games  10 | train win 60% | mean return +0.299
+iter  264 | loss -0.2209 | games   9 | train win 22% | mean return -0.513
+iter  265 | loss +0.2132 | games   9 | train win 67% | mean return +0.348
+iter  266 | loss +0.1624 | games   9 | train win 67% | mean return +0.240
+iter  267 | loss -0.1199 | games   9 | train win 44% | mean return -0.238
+iter  268 | loss +0.0356 | games   9 | train win 56% | mean return +0.097
+iter  269 | loss +0.0055 | games   9 | train win 44% | mean return -0.049
+iter  270 | loss -0.1233 | games   9 | train win 44% | mean return -0.183
+iter  271 | loss -0.0598 | games   9 | train win 44% | mean return -0.094
+iter  272 | loss -0.3153 | games   9 | train win 11% | mean return -0.649
+iter  273 | loss +0.0513 | games   9 | train win 56% | mean return +0.028
+iter  274 | loss -0.2299 | games   9 | train win 44% | mean return -0.272
+iter  275 | loss -0.1847 | games   9 | train win 33% | mean return -0.400
+  eval sampled vs random (200 games): win 95% draw 0% loss 5%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 63% draw 0% loss 37%
+iter  276 | loss -0.0328 | games   9 | train win 33% | mean return -0.125
+iter  277 | loss +0.1224 | games   8 | train win 75% | mean return +0.360
+iter  278 | loss -0.1514 | games   9 | train win 22% | mean return -0.474
+iter  279 | loss +0.0217 | games   8 | train win 50% | mean return +0.068
+iter  280 | loss -0.0687 | games  10 | train win 50% | mean return -0.077
+iter  281 | loss +0.0554 | games   9 | train win 44% | mean return -0.082
+iter  282 | loss +0.0274 | games   8 | train win 50% | mean return +0.004
+iter  283 | loss +0.0683 | games   9 | train win 56% | mean return +0.056
+iter  284 | loss +0.0360 | games   7 | train win 57% | mean return +0.109
+iter  285 | loss -0.0661 | games   9 | train win 56% | mean return +0.083
+iter  286 | loss -0.1256 | games   9 | train win 44% | mean return -0.062
+iter  287 | loss +0.0336 | games   9 | train win 56% | mean return +0.059
+iter  288 | loss -0.1223 | games   9 | train win 44% | mean return -0.186
+iter  289 | loss -0.0029 | games   8 | train win 50% | mean return -0.082
+iter  290 | loss +0.0496 | games   9 | train win 67% | mean return +0.234
+iter  291 | loss +0.0031 | games   9 | train win 67% | mean return +0.159
+iter  292 | loss +0.2874 | games   9 | train win 78% | mean return +0.627
+iter  293 | loss -0.0288 | games   9 | train win 44% | mean return -0.046
+iter  294 | loss +0.2918 | games   9 | train win 89% | mean return +0.656
+iter  295 | loss -0.3056 | games   9 | train win 22% | mean return -0.470
+iter  296 | loss -0.0618 | games   9 | train win 56% | mean return -0.030
+iter  297 | loss +0.0033 | games   9 | train win 67% | mean return +0.234
+iter  298 | loss +0.0508 | games   9 | train win 67% | mean return +0.253
+iter  299 | loss +0.0702 | games   9 | train win 56% | mean return +0.100
+iter  300 | loss -0.0720 | games   9 | train win 56% | mean return -0.009
+  opponent <- frozen copy of policy at iter 300
+  eval sampled vs random (200 games): win 93% draw 0% loss 7%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 57% draw 0% loss 42%
+iter  301 | loss +0.2364 | games   9 | train win 78% | mean return +0.599
+iter  302 | loss -0.1073 | games   9 | train win 44% | mean return -0.062
+iter  303 | loss +0.0927 | games  10 | train win 60% | mean return +0.107
+iter  304 | loss -0.0713 | games   9 | train win 33% | mean return -0.239
+iter  305 | loss -0.1816 | games   9 | train win 33% | mean return -0.243
+iter  306 | loss -0.0109 | games  10 | train win 40% | mean return -0.090
+iter  307 | loss -0.0014 | games   9 | train win 33% | mean return -0.330
+iter  308 | loss -0.1221 | games   9 | train win 44% | mean return -0.071
+iter  309 | loss +0.2806 | games   8 | train win 88% | mean return +0.691
+iter  310 | loss -0.0523 | games   9 | train win 67% | mean return +0.169
+iter  311 | loss -0.1505 | games  10 | train win 40% | mean return -0.137
+iter  312 | loss -0.1788 | games   9 | train win 33% | mean return -0.332
+iter  313 | loss -0.1971 | games   9 | train win 22% | mean return -0.415
+iter  314 | loss -0.0195 | games   9 | train win 44% | mean return -0.054
+iter  315 | loss -0.1237 | games   9 | train win 22% | mean return -0.433
+iter  316 | loss -0.0721 | games   9 | train win 44% | mean return -0.088
+iter  317 | loss +0.2349 | games   9 | train win 78% | mean return +0.535
+iter  318 | loss +0.0386 | games   9 | train win 67% | mean return +0.272
+iter  319 | loss -0.0783 | games  10 | train win 40% | mean return -0.140
+iter  320 | loss +0.1549 | games  10 | train win 70% | mean return +0.465
+iter  321 | loss +0.1358 | games  10 | train win 80% | mean return +0.520
+iter  322 | loss +0.2406 | games   9 | train win 89% | mean return +0.638
+iter  323 | loss +0.1513 | games   9 | train win 78% | mean return +0.438
+iter  324 | loss -0.0869 | games   9 | train win 56% | mean return -0.037
+iter  325 | loss +0.0265 | games   8 | train win 50% | mean return -0.027
+  eval sampled vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs ref    (200 games): win 57% draw 0% loss 43%
+iter  326 | loss +0.1552 | games   9 | train win 78% | mean return +0.439
+iter  327 | loss +0.2671 | games   9 | train win 78% | mean return +0.576
+iter  328 | loss -0.0376 | games   8 | train win 38% | mean return -0.233
+iter  329 | loss +0.1130 | games   9 | train win 56% | mean return +0.107
+iter  330 | loss +0.1158 | games   9 | train win 56% | mean return +0.082
+iter  331 | loss -0.1569 | games   9 | train win 33% | mean return -0.271
+iter  332 | loss +0.0036 | games  10 | train win 60% | mean return +0.261
+iter  333 | loss +0.0540 | games   9 | train win 56% | mean return +0.033
+iter  334 | loss -0.1547 | games   8 | train win 38% | mean return -0.209
+iter  335 | loss +0.3045 | games   9 | train win 89% | mean return +0.672
+iter  336 | loss +0.1028 | games   9 | train win 67% | mean return +0.198
+iter  337 | loss -0.0830 | games   9 | train win 44% | mean return -0.034
+iter  338 | loss -0.1427 | games   9 | train win 33% | mean return -0.280
+iter  339 | loss +0.1785 | games   9 | train win 67% | mean return +0.319
+iter  340 | loss +0.0914 | games   8 | train win 62% | mean return +0.216
+iter  341 | loss +0.2834 | games   9 | train win 100% | mean return +0.860
+iter  342 | loss +0.0966 | games   9 | train win 44% | mean return +0.030
+iter  343 | loss -0.0181 | games   8 | train win 62% | mean return +0.168
+iter  344 | loss -0.0328 | games   8 | train win 50% | mean return -0.036
+iter  345 | loss +0.0136 | games   8 | train win 62% | mean return +0.215
+iter  346 | loss +0.0429 | games   8 | train win 50% | mean return -0.004
+iter  347 | loss +0.1805 | games   8 | train win 88% | mean return +0.632
+iter  348 | loss +0.0284 | games   8 | train win 62% | mean return +0.192
+iter  349 | loss +0.0034 | games   8 | train win 62% | mean return +0.216
+iter  350 | loss -0.0370 | games   8 | train win 50% | mean return +0.058
+  opponent <- frozen copy of policy at iter 350
+  eval sampled vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs random (200 games): win 97% draw 0% loss 3%
+  eval greedy  vs ref    (200 games): win 67% draw 0% loss 33%
+iter  351 | loss -0.1802 | games   9 | train win 22% | mean return -0.552
+iter  352 | loss -0.0369 | games   9 | train win 56% | mean return +0.025
+iter  353 | loss +0.1007 | games   9 | train win 67% | mean return +0.300
+iter  354 | loss +0.1425 | games   8 | train win 62% | mean return +0.276
+iter  355 | loss -0.0705 | games   8 | train win 62% | mean return +0.102
+iter  356 | loss -0.1419 | games   8 | train win 38% | mean return -0.205
+iter  357 | loss +0.0424 | games   8 | train win 62% | mean return +0.217
+iter  358 | loss +0.0643 | games   8 | train win 75% | mean return +0.287
+iter  359 | loss -0.0074 | games   9 | train win 33% | mean return -0.246
+iter  360 | loss +0.1335 | games   9 | train win 56% | mean return +0.206
+iter  361 | loss -0.1107 | games   8 | train win 50% | mean return -0.072
+iter  362 | loss -0.1488 | games   8 | train win 38% | mean return -0.218
+iter  363 | loss +0.0603 | games   9 | train win 67% | mean return +0.243
+iter  364 | loss -0.2428 | games   9 | train win 11% | mean return -0.664
+iter  365 | loss +0.0685 | games   8 | train win 50% | mean return +0.092
+iter  366 | loss -0.1050 | games   8 | train win 38% | mean return -0.217
+iter  367 | loss +0.0239 | games   9 | train win 56% | mean return +0.072
+iter  368 | loss +0.1234 | games   9 | train win 56% | mean return +0.212
+iter  369 | loss +0.0548 | games   9 | train win 67% | mean return +0.406
+iter  370 | loss -0.1605 | games   9 | train win 33% | mean return -0.435
+iter  371 | loss -0.0185 | games   8 | train win 50% | mean return +0.047
+iter  372 | loss -0.0311 | games   8 | train win 50% | mean return -0.070
+iter  373 | loss +0.2327 | games   8 | train win 75% | mean return +0.485
+iter  374 | loss -0.3310 | games   8 | train win 25% | mean return -0.516
+iter  375 | loss +0.0114 | games   8 | train win 62% | mean return +0.164
+  eval sampled vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs random (200 games): win 97% draw 0% loss 3%
+  eval greedy  vs ref    (200 games): win 69% draw 0% loss 31%
+iter  376 | loss +0.0010 | games   9 | train win 44% | mean return -0.098
+iter  377 | loss -0.1126 | games   9 | train win 33% | mean return -0.280
+iter  378 | loss -0.0522 | games   9 | train win 56% | mean return +0.019
+iter  379 | loss -0.0262 | games   8 | train win 62% | mean return +0.144
+iter  380 | loss -0.1059 | games   9 | train win 56% | mean return +0.021
+iter  381 | loss +0.0081 | games   9 | train win 44% | mean return -0.160
+iter  382 | loss +0.1682 | games   8 | train win 62% | mean return +0.223
+iter  383 | loss -0.2069 | games   9 | train win 11% | mean return -0.658
+iter  384 | loss +0.1180 | games   9 | train win 67% | mean return +0.365
+iter  385 | loss -0.0077 | games   8 | train win 50% | mean return -0.006
+iter  386 | loss +0.1544 | games   8 | train win 75% | mean return +0.437
+iter  387 | loss +0.0737 | games  10 | train win 70% | mean return +0.294
+iter  388 | loss +0.1359 | games   8 | train win 62% | mean return +0.280
+iter  389 | loss +0.2647 | games   7 | train win 71% | mean return +0.390
+iter  390 | loss -0.1488 | games   9 | train win 44% | mean return -0.173
+iter  391 | loss +0.0592 | games   8 | train win 62% | mean return +0.260
+iter  392 | loss -0.0274 | games   8 | train win 50% | mean return -0.026
+iter  393 | loss +0.0554 | games   9 | train win 56% | mean return +0.184
+iter  394 | loss -0.0536 | games   9 | train win 33% | mean return -0.238
+iter  395 | loss +0.0241 | games   9 | train win 56% | mean return +0.187
+iter  396 | loss -0.1112 | games   8 | train win 50% | mean return -0.053
+iter  397 | loss +0.1245 | games   8 | train win 75% | mean return +0.438
+iter  398 | loss +0.2142 | games   8 | train win 88% | mean return +0.644
+iter  399 | loss +0.2292 | games   8 | train win 62% | mean return +0.365
+iter  400 | loss +0.1187 | games   8 | train win 88% | mean return +0.545
+  opponent <- frozen copy of policy at iter 400
+  eval sampled vs random (200 games): win 94% draw 0% loss 6%
+  eval greedy  vs random (200 games): win 95% draw 0% loss 5%
+  eval greedy  vs ref    (200 games): win 80% draw 0% loss 20%
+  new best (80.5%) -> checkpoints/mlp_selfplay2_best.pt
