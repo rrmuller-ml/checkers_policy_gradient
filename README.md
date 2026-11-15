@@ -273,9 +273,3 @@ python plot_compare.py "$(seeds onpolicy):on-policy" "$(seeds lag100):stale 100,
 ```
 
 In every staleness plot, the training games of stale runs are played by the old policy, so their mean return (bottom panel) lags for that reason alone; the eval win rate (top panel) is the fair comparison.
-
-## Open questions
-
-- The on-policy runs trained against `mlp_selfplay2_best` beat it 90–93%, so one of them may now be the strongest network; that hasn't been checked head to head.
-- No actor-critic yet: the value net has never been used as a baseline during policy training.
-- All results use one network size (256 hidden units), one learning rate (1e-3) and at most 3 seeds.
